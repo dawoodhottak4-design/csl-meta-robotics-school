@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSL Meta Robotics School DHA Quetta | Next-Gen STEM & AI Education</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0B0F19',
+                            card: '#111827',
+                            cyan: '#06B6D4',
+                            violet: '#8B5CF6',
+                            accent: '#3B82F6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .glass-panel {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .neon-glow {
+            box-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-brand-dark text-slate-100 font-sans antialiased selection:bg-brand-cyan selection:text-black">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-cyan to-brand-violet flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-cyan-500/30">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-brand-cyan via-white to-brand-violet">
+                        CSL META
+                    </span>
+                    <span class="block text-xs text-slate-400 font-medium tracking-wider">ROBOTICS SCHOOL • DHA QUETTA</span>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="text-slate-300 hover:text-brand-cyan transition">About Campus</a>
+                <a href="#pathways" class="text-slate-300 hover:text-brand-cyan transition">Age Pathways</a>
+                <a href="#ai-hub" class="text-slate-300 hover:text-brand-cyan transition">CSL RoboAgent Hub</a>
+                <a href="#enrollment" class="text-slate-300 hover:text-brand-cyan transition">Admissions</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="#enrollment" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-brand-cyan to-brand-violet text-white font-semibold text-sm shadow-lg hover:opacity-90 transition transform hover:-translate-y-0.5">
+                    Enroll Student
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-36 pb-20 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-900/20 via-brand-dark to-brand-dark"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full glass-panel border-cyan-500/30 text-brand-cyan text-xs font-semibold uppercase tracking-wider">
+                        <span class="w-2 h-2 rounded-full bg-brand-cyan animate-pulse"></span>
+                        <span>Now Registering for DHA Quetta Campus</span>
+                    </div>
+
+                    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight">
+                        Empowering <span class="bg-clip-text text-transparent bg-gradient-to-r from-brand-cyan via-blue-400 to-brand-violet">Young Innovators</span> for the AI Era.
+                    </h1>
+
+                    <p class="text-slate-400 text-lg leading-relaxed">
+                        CSL Meta Robotics School introduces a revolutionary age-structured STEM curriculum for ages 3–16, integrated with our proprietary Multi-Agent AI System.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#pathways" class="px-8 py-4 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-accent font-bold text-slate-950 text-center shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition">
+                            Explore Age Pathways (3-16)
+                        </a>
+                        <a href="https://cli-roboagent.streamlit.app" target="_blank" class="px-8 py-4 rounded-xl glass-panel font-bold text-slate-200 text-center hover:bg-slate-800/80 transition border border-slate-700 flex items-center justify-center space-x-2">
+                            <i class="fa-solid fa-brain text-brand-cyan"></i>
+                            <span>Try CSL RoboAgent App</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-brand-cyan to-brand-violet opacity-30 blur-xl"></div>
+                    <div class="relative glass-panel rounded-2xl overflow-hidden p-2 border-slate-700">
+                        <img src="https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?auto=format&fit=crop&w=1200&q=80" alt="Robotics Student" class="w-full h-80 sm:h-96 object-cover rounded-xl">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Hands-On Robotics & Computer Vision</h3>
+                            <p class="text-slate-400 text-sm mt-1">Students building autonomous hardware and training custom ML models in DHA Quetta labs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Age-Wise Curriculum Section -->
+    <section id="pathways" class="py-20 relative bg-slate-950/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Age-Structured Robotics Curriculum</h2>
+                <p class="text-slate-400 mt-4">Progressive learning roadmap designed to evolve alongside student cognitive growth.</p>
+            </div>
+
+            <!-- Age Cards Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Age 3-5 -->
+                <div class="glass-panel p-6 rounded-2xl border-slate-800 hover:border-brand-cyan/50 transition duration-300">
+                    <div class="w-12 h-12 rounded-lg bg-cyan-500/10 text-brand-cyan flex items-center justify-center text-xl font-bold mb-4">3-5</div>
+                    <h3 class="text-xl font-bold text-white">Robotics Discovery</h3>
+                    <p class="text-slate-400 text-sm mt-2">Screen-free, play-based introduction to logic, sequencing, patterns, and motor skills.</p>
+                </div>
+
+                <!-- Age 6-8 -->
+                <div class="glass-panel p-6 rounded-2xl border-slate-800 hover:border-brand-cyan/50 transition duration-300">
+                    <div class="w-12 h-12 rounded-lg bg-violet-500/10 text-brand-violet flex items-center justify-center text-xl font-bold mb-4">6-8</div>
+                    <h3 class="text-xl font-bold text-white">Junior Robotics</h3>
+                    <p class="text-slate-400 text-sm mt-2">Transitioning to block coding, motorized models, touch/tilt sensors, and basic mechanics.</p>
+                </div>
+
+                <!-- Age 9-10 -->
+                <div class="glass-panel p-6 rounded-2xl border-slate-800 hover:border-brand-cyan/50 transition duration-300">
+                    <div class="w-12 h-12 rounded-lg bg-blue-500/10 text-brand-accent flex items-center justify-center text-xl font-bold mb-4">9-10</div>
+                    <h3 class="text-xl font-bold text-white">Robotics Builder</h3>
+                    <p class="text-slate-400 text-sm mt-2">Multi-sensor integration, variables, structural engineering, and collaborative team builds.</p>
+                </div>
+
+                <!-- Age 11-13 -->
+                <div class="glass-panel p-6 rounded-2xl border-slate-800 hover:border-brand-cyan/50 transition duration-300">
+                    <div class="w-12 h-12 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl font-bold mb-4">11-13</div>
+                    <h3 class="text-xl font-bold text-white">AI Innovator</h3>
+                    <p class="text-slate-400 text-sm mt-2">Introduction to Python, Machine Learning workflows, autonomous navigation, and data analysis.</p>
+                </div>
+
+                <!-- Age 14-16 -->
+                <div class="glass-panel p-6 rounded-2xl border-slate-800 hover:border-brand-cyan/50 transition duration-300 md:col-span-2 lg:col-span-2">
+                    <div class="w-12 h-12 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl font-bold mb-4">14-16</div>
+                    <h3 class="text-xl font-bold text-white">Advanced Robotics & AI</h3>
+                    <p class="text-slate-400 text-sm mt-2">Advanced Python & C++, Computer Vision algorithms, national/international robotics competition prep, and capstone engineering projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI RoboAgent Integration Banner -->
+    <section id="ai-hub" class="py-16 bg-gradient-to-r from-brand-cyan/10 via-brand-dark to-brand-violet/10 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="space-y-4 max-w-2xl">
+                <h3 class="text-2xl sm:text-3xl font-bold text-white">Powered by CSL Meta RoboAgent Hub</h3>
+                <p class="text-slate-300">Our Multi-Agent AI System collaborates with teachers to generate personalized lesson plans, real-time code debugging, and tailored student assessments.</p>
+            </div>
+            <a href="https://cli-roboagent.streamlit.app" target="_blank" class="px-6 py-3 rounded-xl bg-brand-cyan text-slate-950 font-bold whitespace-nowrap hover:opacity-90 transition">
+                Access AI Agent Portal
+            </a>
+        </div>
+    </section>
+
+    <!-- Enrollment Form Section -->
+    <section id="enrollment" class="py-20">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="glass-panel p-8 sm:p-12 rounded-3xl border-slate-800">
+                <h2 class="text-3xl font-extrabold text-white text-center">Student Registration Form</h2>
+                <p class="text-slate-400 text-center mt-2 mb-8">Secure your child's seat at CSL Meta Robotics School DHA Quetta.</p>
+
+                <form class="space-y-6">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Student Name</label>
+                            <input type="text" required placeholder="Full Name" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-brand-cyan">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Parent / Guardian Name</label>
+                            <input type="text" required placeholder="Parent Name" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-brand-cyan">
+                        </div>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Contact Phone</label>
+                            <input type="tel" required placeholder="03XX-XXXXXXX" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-brand-cyan">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Select Age Group</label>
+                            <select class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-brand-cyan">
+                                <option>Age 3-5 (Robotics Discovery)</option>
+                                <option>Age 6-8 (Junior Robotics)</option>
+                                <option>Age 9-10 (Robotics Builder)</option>
+                                <option>Age 11-13 (AI Innovator)</option>
+                                <option>Age 14-16 (Advanced Robotics & AI)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-violet text-white font-bold text-lg shadow-lg hover:opacity-90 transition">
+                        Submit Admission Application
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-10 bg-slate-950 text-slate-500 text-center text-sm">
+        <p>© 2026 CSL Meta Robotics School DHA Quetta. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
